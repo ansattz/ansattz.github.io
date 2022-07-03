@@ -1,22 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-#logo  {
-	-moz-transition: opacity 0.325s ease-in-out;
-	-webkit-transition: opacity 0.325s ease-in-out;
-	-ms-transition: opacity 0.325s ease-in-out;
-	transition: opacity 0.325s ease-in-out;
-	top: -5em;
-	position:relative;
-	background-image: url("../../favicon.ico");
-	background-position: center;
-	background-size: cover;
-	width: 5.7rem;
-	height: 5.7rem;
-    line-height: 5.7rem;
-	border: outset 1px #ac2929;
-	border-radius: 100%;
-}
-
 blockquote, q {
 	quotes: none;
 }
@@ -48,7 +31,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+/* Defaulting */
 
 	@-ms-viewport {
 		width: device-width;
@@ -1216,6 +1199,23 @@ input, select, textarea {
 		}
 
 /* Header */
+	
+	#logo  {
+		-moz-transition: opacity 0.325s ease-in-out;
+		-webkit-transition: opacity 0.325s ease-in-out;
+		-ms-transition: opacity 0.325s ease-in-out;
+		transition: opacity 0.325s ease-in-out;
+		top: -5em;
+		position:relative;
+		background-image: url("/./images/favicon.ico");
+		background-position: center;
+		background-size: cover;
+		width: 5.7rem;
+		height: 5.7rem;
+		line-height: 5.7rem;
+		border: outset 1px #ac2929;
+		border-radius: 100%;
+	}
 
 	#header {
 		display: -moz-flex;

@@ -75,7 +75,7 @@
 
 				// Handle lock.
 
-					// Already locked? Speed through "show" steps w/o delays.
+					// Locked or show.
 						if (locked || (typeof initial != 'undefined' && initial === true)) {
 
 							// Mark as switching.
@@ -207,7 +207,7 @@
 
 				// Handle lock.
 
-					// Already locked? Speed through "hide" steps w/o delays.
+					// Locked or hide.
 						if (locked) {
 
 							// Mark as switching.
@@ -402,7 +402,4 @@
 							})
 						}
 					});
-
-	
-
 })(jQuery);
